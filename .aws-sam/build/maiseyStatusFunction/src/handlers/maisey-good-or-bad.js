@@ -1,7 +1,7 @@
 
 exports.handler = async () => {
 
-    const answer = { message: "Maisey is a GOOD dog." };
+    const answer = { message: "Maisey is a CUTE dog." };
 
     const response = {
         statusCode: 200,
