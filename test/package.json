@@ -1,0 +1,14 @@
+{
+    "name": "maisey-tests",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+      "test": "mocha unit"
+    },
+    "devDependencies": {
+      "@aws-sdk/client-lambda": "^3.35.0",
+      "chai": "^4.2.0",
+      "mocha": "^8.2.1"
+    }
+  }
+  
