@@ -1,7 +1,7 @@
 
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-  maisey
+  The Maisey Service reports on the status of my dog.
 
 Transform:
 - AWS::Serverless-2016-10-31
@@ -15,7 +15,7 @@ Resources:
       Runtime: nodejs14.x
       MemorySize: 128
       Timeout: 100
-      Description: A simple API that tells if my dog is good or bad.
+      Description: Maisey is a good girl (most of the time).
       Events:
         Api:
           Type: Api
