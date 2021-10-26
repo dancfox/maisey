@@ -1,6 +1,8 @@
 {
     "name": "maisey-app",
     "description": "is maisey good or bad?",
-    "version": "1.0"
+    "version": "1.0",
+    "dependencies": {
+        "aws-xray-sdk": "^3.3.3"
+    }
 }
-

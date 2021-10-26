@@ -10,6 +10,7 @@ Resources:
   maiseyStatusFunction:
     Type: AWS::Serverless::Function
     Properties:
+      Tracing: Active
       Handler: app.handler
       CodeUri: maisey_service
       Runtime: nodejs14.x
